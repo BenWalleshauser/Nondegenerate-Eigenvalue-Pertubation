@@ -2,7 +2,7 @@
 %6/13
 
 %Nondegenerate eigenvalue pertubation method - following technique used in
-%Griffiths Quantum Mechanics 3rd edition.
+%3rd edition of Griffiths Quantum Mechanics.
 %%
 clear
 clc
