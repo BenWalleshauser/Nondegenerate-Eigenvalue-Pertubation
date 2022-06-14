@@ -10,7 +10,7 @@ clc
 %Generate random matrix
 A0 = 10*(rand(6,6)-0.5);
 
-%Find eigenvalues of A0
+%Find eigenvalues of unperturbed matrix A0
 [V,eigs] = eig(A0);
 
 %Perturb A0 with del_A
@@ -40,7 +40,7 @@ end
 
 eigs_perturbed = diag(eigs) + eigs_C1 + eigs_C2;
 
-%Compare with actual eigs
+%Compare with actual eigenvalues
 eigs_actual  = eig(A);
 
 %Difference between estimated and actual eigenvalues
